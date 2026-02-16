@@ -1,0 +1,91 @@
+@import url("./reset.css");
+
+.text-white {
+  color: white;
+}
+
+.body {
+  background-color: #c7c5c6;
+  padding: 3% 6%;
+}
+
+.main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.aside {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  gap: 3rem;
+  flex: 0.3;
+}
+
+.h2-title-left {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.nav-sidebar {
+}
+
+.list-item {
+}
+
+.fa-solid {
+  padding: 0 0.5rem;
+}
+
+.wrapper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-item {
+  font-size: 1.2rem;
+}
+
+.purcase {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.wrapper-content {
+  flex: 2;
+  background-color: #e4e2e5;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.content-top {
+  padding: 1rem;
+  flex: 1.2;
+}
+
+.content-mid {
+  flex: 2;
+}
+
+.content-bot {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  font-weight: 800;
+  border-bottom: 1px solid black;
+}
